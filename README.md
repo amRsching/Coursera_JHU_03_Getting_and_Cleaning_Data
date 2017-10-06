@@ -1,5 +1,4 @@
 # Coursera JHU 03 Getting and Cleaning Data
-========================================
 This file describes how run_analysis.R script works.
 1. Unzip the zip package from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip directly into the current working directory.
 2. Make sure the folder "UCI HAR Dataset" and the run_analysis.R script are both in the current working directory.
