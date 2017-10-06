@@ -14,7 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  6. Transform the values of *y* according to the *label* data frame and store it in a new variable called *y.label*.  
  7. Combine the *subject*, *y.label* and *x.extract* by column to get a new cleaned 10299x68 data frame, *mergedData*. The "subject" column contains integers that range from 1 to 30 inclusive; the "activity" column contains 6 kinds of activity names; the last 66 columns contain measurements that range from -1 to 1 exclusive.  
  8. Write the *mergedData* out to "mergedData.txt" file in current working directory.  
- 9. Using group_by() and summarize_all() functions from the library dplyr, group all measurements by (subject,activity) combinations and calculate the mean of each measurement for the corresponding combinations. We have 30 unique subjects and 6 unique activities, which result in 180 combinations of the two. So, finally we get a 180x68 data frame called *mergedData_average*.
+ 9. Using group_by() and summarize_all() functions from the library dplyr, group all measurements by (subject,activity) combinations and calculate the mean of each measurement for the corresponding combinations. We have 30 unique subjects and 6 unique activities, which results in 180 combinations of the two. So, finally we get a 180x68 data frame called *mergedData_average*.
  10. Write the *mergedData_average* out to "mergedData_average.txt" file in current working directory. 
  
 © Pingchuan Ma 2017 All Rights reserved.
